@@ -1,4 +1,4 @@
-export const textlintConfig = {
+module.exports = {
   rules: {
     "preset-japanese": {
       "sentence-length": {
@@ -11,7 +11,7 @@ export const textlintConfig = {
         min_interval: 1,
         strict: false,
         allow: ["も", "や", "か"],
-        separatorChars: [
+        separatorCharacters: [
           "、",
           "。",
           "?",
