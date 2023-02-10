@@ -12,7 +12,7 @@
         "strict": false,
         "allow": ["も", "や", "か"],
         "separatorChars": ["、", "。", "?", "!", "？", "！", "「",  "」", "“", "”"]
-      },
+      }
     },
     "preset-jtf-style": {
       "1.2.1.句点(。)と読点(、)": false,
@@ -27,7 +27,6 @@
       "4.2.6.ハイフン(-)": true,
       "4.3.1.丸かっこ（）": false
     },
-
     "prh": {
       "rulePaths": [
          "./dict/prh.yml"

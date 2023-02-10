@@ -6,10 +6,11 @@
   "author": "ics-ikeda <ikeda@ics-web.jp>",
   "license": "MIT",
   "private": false,
-  "main": "textlintrc.json",
   "dependencies": {
     "textlint-rule-prh": "^5.2.0"
   },
+  "main":"main.js",
+  "types": "./index.d.ts",
   "scripts": {
     "generate": "node _tools/長音表記統一.js",
     "format": "node _tools/YML整形ツール.js"
