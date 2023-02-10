@@ -9,7 +9,7 @@
   "dependencies": {
     "textlint-rule-prh": "^5.2.0"
   },
-  "main":"main.js",
+  "main":"index.js",
   "types": "./index.d.ts",
   "scripts": {
     "generate": "node _tools/長音表記統一.js",

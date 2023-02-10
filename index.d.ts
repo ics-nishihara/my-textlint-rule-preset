@@ -1,3 +1,3 @@
-declare module "textlint-rule-preset-icsmedia/main" {
+declare module "textlint-rule-preset-icsmedia" {
   export const configPath: string; 
 }
